@@ -10,14 +10,6 @@ strips metadata from every image, mirroring the input directory structure into
 an output directory. No native image libraries beyond Pillow (and the AVIF
 plugin) are required — just Python and Pillow doing the work.
 
-## Image
-
-Published to GHCR on every push to `main` and on version tags (`vX.Y.Z`):
-
-```
-ghcr.io/ryzenpay/pillowcase
-```
-
 ## Quick start
 
 The primary use case is a multi-stage Docker build, where `pillowcase`
