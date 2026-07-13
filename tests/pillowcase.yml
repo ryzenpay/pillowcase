@@ -1,0 +1,7 @@
+profiles:
+  - match: "*.jpg"
+    quality: 40
+    widths: [800, 1600]
+    formats: [webp, original]
+    filename: "{stem}-{width}w.{ext}"
+    strip_metadata: true

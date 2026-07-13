@@ -1,0 +1,13 @@
+profiles:
+  - match: "*.hero.*"
+    quality: 90
+    widths: [800, 1600]
+    formats: [webp, original]
+    filename: "{stem}-{width}w.{ext}"
+    strip_metadata: true
+
+  - match: "thumbnails/*"
+    quality: 65
+    widths: [200]
+    formats: [webp]
+    filename: "{stem}-{height}x{width}.{ext}"
